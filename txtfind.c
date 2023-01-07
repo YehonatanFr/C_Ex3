@@ -20,7 +20,6 @@ int CheckEnd(char *str)
 int Similar (char *Compare, char *Word){
     int lenWord = strlen(Word), lenComp = strlen(Compare);
     int i = 0; //Pointer for string Compare
-    int j = 0;; //Pointer for string Word
     int temp = 0; //Count the chars are different, need to be one
     if(CheckEnd(Compare))
     {
